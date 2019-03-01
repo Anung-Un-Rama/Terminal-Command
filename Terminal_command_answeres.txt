@@ -1,0 +1,28 @@
+//////////Exercises////////
+
+Questions:
+
+1. How do you import a module?
+
+A:
+
+
+2. What JavaScript statement do you use to export a module?
+
+A:
+
+
+Online Research Questions:
+
+1. Are there other ways to export a module?
+
+A:
+
+
+2. What are ES6 modules and how do they differ from the module we created in this checkpoint?
+
+A:
+
+
+
+Code:
