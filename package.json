@@ -1,0 +1,21 @@
+const uuid = require('uuid');
+const newUuid = uuid();
+
+console.log(`your new Universally unique identifier is ${newUuid}`);
+
+
+{
+  "name": "my-first-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Smith",
+  "license": "ISC"
+}
