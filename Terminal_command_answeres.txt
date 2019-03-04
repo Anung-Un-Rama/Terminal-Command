@@ -4,24 +4,26 @@ Questions:
 
 1. How do you import a module?
 
-A:
+A: There are a few different ways we can import modules. The most prevalent ways are to use a require function in the code of the file itself, or you can install it via the command terminal. 
 
 
 2. What JavaScript statement do you use to export a module?
 
-A:
+A: module.export. Module is the variable and .export is an object that is part of JS by default. The module will represent the current module and the .export will export that as a module automatically. 
 
 
 Online Research Questions:
 
 1. Are there other ways to export a module?
 
-A:
+A: You can also export by using module.exports.log = function(message){} which will export the object of the log function as the module. You could also do something like exports.message = 'Hey there' which will return the object and the assign it to a variable on the import in the file. 
 
 
 2. What are ES6 modules and how do they differ from the module we created in this checkpoint?
 
-A:
+A: In the module we created in this checkpoint we had to use require() and define what will be a part of the require in another file, but in ES6 we have syntaxes for defining modules using import and export with the use of a file path. 
+
+You will often have to use a transpiler to use ES6 because it is not yet broadly supported. 
 
 
 
